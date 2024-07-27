@@ -3,7 +3,7 @@
 This take-home assignment is designed to evaluate your skills in developing APIs using Python, FastAPI, and PostgreSQL. Please ensure that you complete this assignment within 2-3 hours.
 
 ## Objective
-A simple JWT based auth server that lets user to register, login and fetch user profile. This project uses JWT for authentication (RSA signing method) and a relational database (PostgreSQL) for storing user info.
+A simple JWT based auth server that lets user to register, login and fetch user profile. This project should use JWT for authentication (RSA signing method) and a relational database (PostgreSQL) for storing user info.
 
 ## Instructions
 
@@ -15,7 +15,11 @@ A simple JWT based auth server that lets user to register, login and fetch user 
 
 ### 2. Create database schema for user profile
 Use following fields: 
-name, email, location, about, password
+- name
+- email
+- location
+- about
+- password
 
 ### 3. Develop following endpoints
 
@@ -40,7 +44,7 @@ Add a README.md file explaining how to setup and run the project locally.
 - Share the link to us.
 
 ## Evaluation Criteria
-We'll evaluate your code in following criteria: 
+We'll evaluate your code using following criteria: 
 
 - Code Quality
 - Functionality
